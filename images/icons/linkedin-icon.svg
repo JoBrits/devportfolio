@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>linkedin-icon</title>
+    <defs>
+        <linearGradient x1="0.696395131%" y1="0%" x2="98.5156033%" y2="98.5051935%" id="linearGradient-1">
+            <stop stop-color="#D25B73" offset="0%"></stop>
+            <stop stop-color="#FF9900" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="12.5" cy="12.5" r="12.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LandingPC-Med-1600" transform="translate(-268.000000, -625.000000)">
+            <g id="Slide-1" transform="translate(159.000000, 0.000000)">
+                <g id="linkedin-icon" transform="translate(109.000000, 625.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="background" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M16.1530277,9 C19.4002708,9 20,11.0204884 20,13.6483124 L20,19 L16.7933836,19 L16.7933836,14.2547334 C16.7933836,13.1232964 16.7721029,11.6680691 15.126717,11.6680691 C13.4581157,11.6680691 13.2037145,12.9010336 13.2037145,14.1742431 L13.2037145,19 L10,19 L10,9.24238544 L13.0740956,9.24238544 L13.0740956,10.5768773 L13.1185916,10.5768773 C13.5461405,9.8094759 14.5927646,9 16.1530277,9 Z M8,9 L8,19 L5,19 L5,9 L8,9 Z M6.50117035,4 C7.32821847,4 8,4.6723869 8,5.5 C8,6.3276131 7.32821847,7 6.50117035,7 C5.67022107,7 5,6.3276131 5,5.5 C5,4.6723869 5.67022107,4 6.50117035,4 Z" id="LinkedInicon" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Task 27 - fictitious online store">
+    <meta name="keywords" content="Jo, Toys, McFarlane Toys">
+    <meta name="author" content="Johan Brits">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Johan Brits | Design</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="layout-grid layout-grid-section" onload="checkSession()">
+    
+    <!-- Menu Section -->
+    <nav class="menu" id="navbar">
+        <div class="menu-burger"></div>
+        <div class="menu-item menu-item-1">
+            <div class="menu-item-highlight"></div>
+            <a href="index.html" class="menu-item-link">+ Welcome +</a>
+        </div>
+        <div class="menu-item menu-item-2 ">
+            <div class="menu-item-highlight"></div>
+            <a href="design.html" class="menu-item-link">+ Des Examples+</a>
+        </div>
+        <div class="menu-item menu-item-3">
+            <div class="menu-item-highlight"></div>
+            <a href="develop.html"  class="menu-item-link">+ Dev Examples+</a>
+        </div>
+        <div class="menu-item menu-item-4">
+            <div class="menu-item-highlight"></div>
+            <a href="contact.html" class="menu-item-link">+ Contact +</a>
+        </div>
+        <div class="menu-item menu-item-5 menu-item--active">
+            <div class="menu-item-highlight"></div>
+            <a href="results.html" class="menu-item-link">+ Saved +</a>
+        </div>
+    </nav>
+    
+    <!-- Header Section -->
+    <header class="section-main-center layout-grid layout-grid-content">
+        <div class="header-main-block"></div>
+        <div class="header-main-content">
+            <h1>Results</h1>
+            <p>
+                Below are the saved results
+            </p>
+        </div>
+        <div class="header-main-image">
+            <p class="quote">
+                This section is under construction
+            </p>
+        </div>
+    </header>
+    
+    <!-- Design Examples Section-->
+    <section class="layout-grid section-main-center layout-grid-content">
+       <div id="savedExamples" class="examples savedExamples example-cards">
+        <!-- Examples Populated here -->
+       </div>
+    </section>
+   
+     <!-- Footer Section -->
+    <footer id="contact" class="footer section-main-center layout-grid layout-grid-content">
+        <div class="footer-content-0">
+            <form class="header-design-content">
+                <h2>Get in touch</h2>
+                <p>Submit the form below and I will contact you</p>
+                <hr>
+                <br>
+                <br>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                <input type="radio" name="newsletter" id="newsletter" required>
+                <label><b>Subscribe to my newsletter</b></label>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form> 
+        </div>
+    </footer>
+    <!-- Call JS file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
